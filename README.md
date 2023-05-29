@@ -17,6 +17,10 @@ This plugin ensures that when a player enters SCP-914 activated with a specific 
 | `effects_on_fine_duration` | float | decides the duration of the effects that are applied to the player once it enters in an active 914 with the knob setting fine | 15 |
 | `effects_on_very_fine_duration` | float | decides the duration of the effects that are applied to the player once it enters in an active 914 with the knob setting very fine | 15 |
 
+# Effect Types
+
+To see all the current effect types, please refer to the list located in the resources channel in the [EXILED](https://discord.gg/PyUkWTg) official discord server or to the list located in this repository [effect_types.txt](https://github.com/An4r3w/Better914/blob/main/effect_types.txt). This last one won't be updated in the future, so i recommend seeing in the EXILED discord.
+
 # Downloads
 
 ![img](https://img.shields.io/github/downloads/An4r3w/Better914/total?style=for-the-badge)
