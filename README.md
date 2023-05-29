@@ -6,16 +6,8 @@ This plugin ensures that when a player enters SCP-914 activated with a specific 
 | --- | --- | --- | --- |
 | `is_enabled` | bool | toggles the plugin | true |
 | `debug` | bool | toggles the debug mode | false |
-| `effects_on_rough` | list | decides wich effects should be applied to the player once it enters in an active 914 with the knob setting rough | CardiacArrest, Bleeding |
-| `effects_on_coarse` | list | decides wich effects should be applied to the player once it enters in an active 914 with the knob setting coarse | Hemorrhage, Blinded |
-| `effects_on_11` | list | decides wich effects should be applied to the player once it enters in an active 914 with the knob setting 1:1 | Poisoned, Burned |
-| `effects_on_fine` | list | decides wich effects should be applied to the player once it enters in an active 914 with the knob setting fine | Scp207, Invigorated |
-| `effects_on_very_fine` | list | decides wich effects should be applied to the player once it enters in an active 914 with the knob setting very fine | DamageReduction, Flashed |
-| `effects_on_rough_duration` | float | decides the duration of the effects that are applied to the player once it enters in an active 914 with the knob setting rough | 15 |
-| `effects_on_coarse_duration` | float | decides the duration of the effects that are applied to the player once it enters in an active 914 with the knob setting coarse | 15 |
-| `effects_on_11_duration` | float | decides the duration of the effects that are applied to the player once it enters in an active 914 with the knob setting 1:1 | 15 |
-| `effects_on_fine_duration` | float | decides the duration of the effects that are applied to the player once it enters in an active 914 with the knob setting fine | 15 |
-| `effects_on_very_fine_duration` | float | decides the duration of the effects that are applied to the player once it enters in an active 914 with the knob setting very fine | 15 |
+| `knob_player_effect` | dictionary | Specifies the effects that should be applied to the player when they enter an active SCP-914 with any knob setting. | EffectType, duration, intensity, add_duration_if_active, is_enabled |
+
 
 # Effect Types
 
